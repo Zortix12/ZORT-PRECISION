@@ -1,5 +1,3 @@
-loader.lua
-
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -11,7 +9,7 @@ local Settings = {
     Precision = 1.0,
     PredictionValue = 0.155,
     AimPart = "Head",
-    ToggleKey = Enum.KeyCode.Q,
+    ToggleKey = Enum.KeyCode.Caps Lock,
     MenuKey = Enum.KeyCode.RightControl
 }
 
